@@ -71,16 +71,15 @@ blogpessoal/
 
 Para melhor visualização, aqui estão os links para os códigos principais:  
 
-- **[PostagemController](src/blogpessoal/controller/PostagemController.java):** Controlador responsável pelas postagens. Implementa métodos CRUD.  
-- **[UsuarioController](src/blogpessoal/controller/UsuarioController.java):** Controlador responsável pelos usuários. Implementa `getAll()`, `getById()`, `post()`, `put()`, `logar()`.  
-- **[Postagem](src/blogpessoal/model/Postagem.java):** Entidade que representa as postagens no banco de dados.  
-- **[Usuario](src/blogpessoal/model/Usuario.java):** Entidade que representa os usuários no banco de dados.  
+- **[PostagemController](src/main/java/com/generation/blogpessoal/controller/PostagemController.java):** Controlador responsável pelas postagens. Implementa métodos CRUD.  
+- **[UsuarioController](src/main/java/com/generation/blogpessoal/controller/UsuarioController.java):** Controlador responsável pelos usuários. Implementa `getAll()`, `getById()`, `post()`, `put()`, `logar()`.  
+- **[Postagem](src/main/java/com/generation/blogpessoal/model/Postagem.java):** Entidade que representa as postagens no banco de dados.  
+- **[Usuario](src/main/java/com/generation/blogpessoal/model/Usuario.java):** Entidade que representa os usuários no banco de dados.  
 - **[UsuarioLogin](src/blogpessoal/model/UsuarioLogin.java):** Modelo auxiliar para login, sem persistência no banco.  
-- **[UsuarioRepository](src/blogpessoal/repository/UsuarioRepository.java):** Interface que permite buscar usuários pelo e-mail.  
+- **[UsuarioRepository](src/main/java/com/generation/blogpessoal/repository/UsuarioRepository.java):** Interface que permite buscar usuários pelo e-mail.  
 - **[UsuarioService](src/blogpessoal/service/UsuarioService.java):** Serviço responsável por `cadastrarUsuario()`, `atualizarUsuario()` e `autenticarUsuario()`.  
-- **[BasicSecurityConfig](src/blogpessoal/security/BasicSecurityConfig.java):** Configuração de autenticação e autorização.  
-- **[JwtService](src/blogpessoal/security/JwtService.java):** Serviço para geração e validação de tokens JWT.  
-- **[JwtAuthFilter](src/blogpessoal/security/JwtAuthFilter.java):** Filtro responsável por validar tokens em requisições autenticadas.  
+- **[JwtService](src/main/java/com/generation/blogpessoal/security/JwtService.java):** Serviço para geração e validação de tokens JWT.  
+- **[JwtAuthFilter](src/main/java/com/generation/blogpessoal/security/JwtAuthFilter.java):** Filtro responsável por validar tokens em requisições autenticadas.  
 
 <div id='tecnologiasUtilizadas'/>  
 
